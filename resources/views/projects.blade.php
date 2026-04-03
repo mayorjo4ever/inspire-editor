@@ -10,8 +10,8 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #0A1220;
-      color: #fff;
+      background: #e9edf3;
+      color: #301a1a;
       min-height: 100vh;
     }
 
@@ -22,20 +22,20 @@
       justify-content: space-between;
       padding: 0 32px;
       height: 56px;
-      background: #050E1A;
-      border-bottom: 1px solid #1A3A55;
+      background: #296abe;
+      border-bottom: 1px solid #165080;
     }
     .logo {
       font-size: 18px;
       font-weight: 700;
-      color: #00B4D8;
+      color: #feffff;
       letter-spacing: 0.5px;
     }
-    .logo span { color: #7B2FBE; }
+    .logo span { color: #feffff; }
     .logo small {
       font-size: 12px;
       font-weight: 400;
-      color: #3A5A78;
+      color: #feffff;
       margin-left: 8px;
     }
 
@@ -57,12 +57,12 @@
     .page-title {
       font-size: 26px;
       font-weight: 700;
-      color: #fff;
+      color: #160404;
     }
     .page-title span {
       font-size: 14px;
       font-weight: 400;
-      color: #3A5A78;
+      color: #082b6f;
       margin-left: 10px;
     }
 
@@ -145,7 +145,7 @@
 
     /* ── PROJECT CARD ── */
     .project-card {
-      background: #0D1B2A;
+      background: #022546bb; /*  0D1B2A  */
       border: 1px solid #1A3A55;
       border-radius: 12px;
       overflow: hidden;
@@ -173,7 +173,7 @@
     }
 
     .card-name {
-      font-size: 16px;
+      font-size: 17px;
       font-weight: 700;
       color: #fff;
       white-space: nowrap;
@@ -182,9 +182,9 @@
     }
 
     .card-slug {
-      font-size: 12px;
+      font-size: 13px;
       font-family: 'Consolas', monospace;
-      color: #00B4D8;
+      color: #f6f7f7;
       background: rgba(0, 180, 216, 0.08);
       border: 1px solid rgba(0, 180, 216, 0.2);
       border-radius: 4px;
@@ -197,7 +197,7 @@
       align-items: center;
       gap: 14px;
       font-size: 12px;
-      color: #3A5A78;
+      color: #dee6ec;
       margin-top: auto;
     }
 
@@ -252,7 +252,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.7);
+      background: rgba(16, 17, 16, 0.7);
       z-index: 999;
       align-items: center;
       justify-content: center;
@@ -260,7 +260,7 @@
     .modal-overlay.open { display: flex; }
 
     .modal {
-      background: #0D1B2A;
+      background: #799bbe;
       border: 1px solid #1A3A55;
       border-radius: 14px;
       padding: 32px;
@@ -294,19 +294,19 @@
     .form-group label {
       font-size: 13px;
       font-weight: 600;
-      color: #90A4B8;
+      color: #ffffff;
     }
     .form-group label small {
       font-weight: 400;
-      color: #3A5A78;
+      color: #e8eef4;
       margin-left: 6px;
       font-size: 11px;
     }
 
     .form-group input {
-      background: #050E1A;
+      background: #ffffff;
       border: 1px solid #1A3A55;
-      color: #fff;
+      color: #250505;
       padding: 10px 14px;
       border-radius: 7px;
       font-size: 14px;
@@ -350,9 +350,9 @@
     }
     .search-bar input {
       width: 100%;
-      background: #050E1A;
+      background: #fcfcfc;
       border: 1px solid #1A3A55;
-      color: #fff;
+      color: #0e0000;
       padding: 8px 14px 8px 36px;
       border-radius: 7px;
       font-size: 13px;
